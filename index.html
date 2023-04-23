@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/spinner.css" />
+    <script src="./js/index.js" defer></script>
+    <title>foodie finds</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="heading">
+        <h1 class="h1">foodie finds</h1>
+        <form action="/search.html" class="search-form">
+          <div class="search-flex">
+            <input
+              class="input"
+              type="text"
+              name="search-term"
+              id="search-term"
+              placeholder="Enter search term"
+            />
+            <button class="btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="grid">
+        <h1 style="margin-left: 25px" class="h1">find the best meals</h1>
+        <div class="boxs-container"></div>
+      </section>
+      <div class="spinner"></div>
+    </div>
+  </body>
+</html>
